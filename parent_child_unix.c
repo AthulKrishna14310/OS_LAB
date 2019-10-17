@@ -5,7 +5,7 @@
 void  main(int argc, char const *argv[])
 {
 	int pid0,pid1,pid2;
-
+//HI
 	pid0=fork();
 
 		if(pid0==0){
