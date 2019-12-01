@@ -16,10 +16,10 @@ class client
 
 	 System.out.print("client: ");
 	 str=myObj.nextLine();
-   dos.writeUTF(str);
+          dos.writeUTF(str);
 
 	 if(str.contentEquals("exit")){
-     s.close();
+               s.close();
 		 return;
 		  }
    }
